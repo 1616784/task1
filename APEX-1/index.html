@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Wheels Showroom</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Luxury Wheels Showroom</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#cars">Cars</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home">
+            <h2>Welcome to FROOTY CAR SHOWROOM!</h2>
+            <p>Explore our exclusive range of luxury cars, designed to provide the ultimate driving experience.</p>
+            <h3>Showroom Information:</h3>
+            <p>Phone: 8937487849</p>
+            <p>Email: <a href="mailto:luxurywheels@gmail.com">frooty4@gmail.com</a></p>
+            <p>Address: 123 Luxury Lane, Auto City, India</p>
+            <div class="image-container">
+                <div class="image-item">
+                    <img src="assets/1.jpg" alt="Showroom Interior">
+                    <p>Showroom Interior</p>
+                </div>
+                <div class="image-item">
+                    <img src="download.jpg" alt="Workshop">
+                    <p>Workshop</p>
+                </div>
+            </div>
+            <button onclick="showCars()" class="button">View Our Cars</button>
+            <button onclick="showContact()" class="button">Contact Us</button>
+        </section>
+        
+        <section id="cars" style="display: none;">
+            <h2>Our Exclusive Cars</h2>
+            <h3>Available Models:</h3>
+            <div class="menu-container">
+                <div class="menu-item">
+                    <img src="fer1.jpg" alt="FERARI">
+                    <p>Ferrari</p>
+                </div>
+                <div class="menu-item">
+                    <img src="royce.jpg" alt="ROLLS ROYCE">
+                    <p>Rolls Royce</p>
+                </div>
+                <div class="menu-item">
+                    <img src="kia2.jpg" alt="KIA">
+                    <p>Kia</p>
+                </div>
+                <div class="menu-item">
+                    <img src="ms2.jpg" alt="SUZUKI">
+                    <p>maruthi suzuki</p>
+                </div>
+                <div class="menu-item">
+                    <img src="benz2.jpg" alt="BENZ">
+                    <p>Mercedees  Benz</p>
+                </div>
+                <div class="menu-item">
+                    <img src="thar2.jpg" alt="MAHINDRA THAR">
+                    <p>Mahindhra Thar</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact" style="display: none;">
+            <h2>Get in Touch</h2>
+            <h3>Contact Information:</h3>
+            <p>Phone: 8845739967</p>
+            <p>Email: <a href="mailto:luxurywheels@gmail.com">luxurywheels@gmail.com</a></p>
+            <p>Address: 123 Luxury Lane, Auto City, India</p>
+        </section>
+        
+    </main>
+    <footer>
+        <p>&copy; 2024 Luxury Wheels Showroom</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
